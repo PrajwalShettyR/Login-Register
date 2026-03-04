@@ -1,0 +1,66 @@
+/* Log.css */
+
+.login-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #667eea;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #5a67d8;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
