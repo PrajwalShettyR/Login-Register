@@ -94,7 +94,7 @@ Login-Register/
 
 4. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install dependencies
    ```
 
 5. **Run the Flask server:**
@@ -264,21 +264,6 @@ http://localhost:5000/api
 ```
 
 ---
-
-### Error Codes
-
-| Code | Meaning | Description |
-|------|---------|-------------|
-| 200 | OK | Request successful |
-| 201 | Created | Resource created successfully |
-| 400 | Bad Request | Invalid input or missing fields |
-| 401 | Unauthorized | Invalid credentials or missing token |
-| 409 | Conflict | Email already exists |
-| 500 | Server Error | Internal server error |
-
----
-
-
 
 ## Running the Full Application
 
